@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    tools:context="com.hackersdigital.loan.loandigital.LendOrFirstPayPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="408dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="406dp"
+            android:layout_margin="16dp"
+            android:background="@color/sky_blue"
+            android:text="Lend Money"
+            android:id="@+id/lendMoneybutton"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="406dp"
+            android:layout_margin="16dp"
+            android:id="@+id/firstPayButton"
+            android:background="@color/colorAccent"
+            android:text="First Pay"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Click one to continue ...!!!"
+        android:textColor="@color/sky_blue_pressed"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
